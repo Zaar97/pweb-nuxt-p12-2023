@@ -1,20 +1,14 @@
 <template>
     <div>
-        <h2>About</h2>
-        <p>lorem ipsum</p>
+     
     </div>
-</template>
-
-<script setup>
-
-</script>
-
-<style scoped>
-    h2 {
-        margin-bottom: 20px;
-        font-size: 36px;
+  </template>
+  
+  <style lang="postcss" scoped>
+  .badge {
+    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700;
+    &:hover {
+      @apply bg-gray-300;
     }
-    p {
-        margin: 20px 0;
-    }
-</style>
+  }
+  </style>

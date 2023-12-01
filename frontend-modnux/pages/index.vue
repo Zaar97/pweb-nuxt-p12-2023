@@ -1,30 +1,29 @@
 <template>
-  <div>
-    <!-- Hero Section -->
-    <div class="hero-section bg-blue-500 transition ease-in-out min-h-screen flex items-center justify-center">
-      <div class="rounded-lg bg-white p-6 shadow-lg transition">
-        <NuxtLayout />
-        <div class="hero">
-          <div class="hero-illustration" aria-hidden="true"></div>
-
-          <div class="hero-content w-6xl mx-auto px-7 sm:px-6">
-            <div class="hero-content-inner p-20 pt-8 md:pt-32 pb-8 md:pb-20 text-center">
-              <div class="hero-header pb-12 md:pb-16">
-                <h1 class="text-4xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4">
-                  The Final
-                  <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Chapter.</span>
-                </h1>
-                <p class="text-lg md:text-xl text-gray-600 mb-8">
-                  Welcome to the end of our web programming practicum, the final chapter, the end of an era. 
-                </p>
-                <div class="hero-buttons max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-                  <button type="button" class="text-white text-lg bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Learn More!</button>
-                </div>
-              </div>
+<div>
+    <!-- Hero Section with Illustration -->
+      <div class="hero-section bg-blue-950 transition ease-in-out min-h-screen flex items-center justify-center space-x-9">
+    <div class="w-1/3 px-4 mr-10"><img src="~assets/rocket.png" alt="Rocket Illustration" class="w-full h-auto" /></div>
+    <div class="rounded-lg bg-blue-700 shadow-lg transition flex flex-col md:flex-row items-center md:w-1/3">
+      <!-- Content Container -->
+      <div class="md:w-full mx-auto px-2 sm:px-6">
+        <div class="hero-content-inner p-10 pt-4 md:pt-16 pb-4 md:pb-10 text-center">
+          <div class="hero-header pb-8 md:pb-10">
+            <h1 class="text-4xl text-white md:text-6xl font-extrabold leading-tighter tracking-tighter mb-2">
+              The Final
+              <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Chapter.</span>
+            </h1>
+            <p class="text-lg text-white md:text-xlte xt-gray-600 mb-4">
+              Welcome to the end of our web programming practicum, the final chapter, the end of an era. 
+            </p>
+            <div class="hero-buttons max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+              <NuxtLink to="/about">
+                <button type="button" class="text-white text-lg bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Learn More!</button>
+              </NuxtLink>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     <!-- What Are We Doing For Our Final Project? Section -->
@@ -52,55 +51,38 @@
       </div>
     </div>
 
-    <!-- Four Cards Section -->
     <div class="cards-section bg-blue-500 transition ease-in-out min-h-screen flex items-center justify-center">
-      <div class="rounded-lg bg-white p-6 shadow-lg transition">
+      <div class="rounded-lg p-6">
         <div class="container-xl">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 md:mt-20">
-            <!-- Card 1 -->
-            <div class="card">
-              <img src="" alt="Card Image 1" class="w-full h-40 object-cover mb-4" />
-              <div class="text-center">
-                <h3 class="text-xl md:text-2xl font-semibold mb-2">Card Title 1</h3>
-                <p class="text-gray-600">Card Description 1</p>
-              </div>
+          <h1 class="text-4xl text-white md:text-6xl font-extrabold">Featured Blogs</h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-20">
+            <!-- First Column (3 Cards Up) -->
+            <div class="card mb-8">
+              <card />
             </div>
 
-            <!-- Card 2 -->
-            <div class="card">
-              <img src="" alt="Card Image 2" class="w-full h-40 object-cover mb-4" />
-              <div class="text-center">
-                <h3 class="text-xl md:text-2xl font-semibold mb-2">Card Title 2</h3>
-                <p class="text-gray-600">Card Description 2</p>
-              </div>
+            <div class="card mb-8">
+              <card />
             </div>
 
-            <!-- Card 3 -->
-            <div class="card">
-              <img src="" alt="Card Image 3" class="w-full h-40 object-cover mb-4" />
-              <div class="text-center">
-                <h3 class="text-xl md:text-2xl font-semibold mb-2">Card Title 3</h3>
-                <p class="text-gray-600">Card Description 3</p>
-              </div>
+            <div class="card mb-8">
+              <card />
             </div>
 
-            <!-- Card 4 -->
+            <!-- Second Column (3 Cards Down) -->
             <div class="card">
-              <img src="" alt="Card Image 4" class="w-full h-40 object-cover mb-4" />
-              <div class="text-center">
-                <h3 class="text-xl md:text-2xl font-semibold mb-2">Card Title 4</h3>
-                <p class="text-gray-600">Card Description 4</p>
-              </div>
+              <card />
+            </div>
+
+            <div class="card">
+              <card />
+            </div>
+
+            <div class="card">
+              <card />
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Existing Card Component (if you have a separate card component) -->
-    <div class="existing-card-section bg-blue-200 min-h-screen flex items-center justify-center">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <card />
       </div>
     </div>
   </div>

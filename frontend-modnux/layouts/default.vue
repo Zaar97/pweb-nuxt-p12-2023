@@ -27,7 +27,7 @@
 
       <div class="log ">
         <i class="bx bx-menu" @click="menuEventButton"></i>
-        <button class="button-login">Login</button>
+        <button class="button-login">Hey!</button>
       </div>
     </div>
   </nav>

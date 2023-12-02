@@ -22,6 +22,6 @@
 </template>
 
 <script setup>
-  const { data:blog1 }= await useFetch('http://localhost:8080/api/Blogs/656aef045a95a8bc4611a41c?locale=undefined&draft=false&depth=1')
+  const { data:blog1 }= await useFetch('http://localhost:8080/api/Blogs/656b45b41f7c8c36d7e16a7c?locale=undefined&draft=false&depth=1')
 </script>
   

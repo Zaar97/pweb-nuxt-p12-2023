@@ -15,7 +15,7 @@ const Blogs: CollectionConfig = {
   },
   fields: [
     {
-      name: 'postMeta',
+      name: 'postText',
       type: 'group',
       fields: [
         {
@@ -38,7 +38,7 @@ const Blogs: CollectionConfig = {
       type: 'tabs',
       tabs: [
         {
-          label: 'Post Media',
+          label: 'PostMedia',
           fields: [
             {
               name: 'postImage',

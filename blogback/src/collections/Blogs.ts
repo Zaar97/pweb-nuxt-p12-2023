@@ -15,7 +15,7 @@ const Blogs: CollectionConfig = {
   },
   fields: [
     {
-      name: 'postText',
+      name: 'postMeta',
       type: 'group',
       fields: [
         {

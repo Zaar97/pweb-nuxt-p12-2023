@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       teamMembers: [
-        { name: 'Muhammad Rifqi Oktaviansyah', nrp: 'Founder & CEO', image: 'https://placekitten.com/200/200' },
+        { name: 'Muhammad Rifqi Oktaviansyah', nrp: '5027221067', image: 'https://placekitten.com/200/200' },
         { name: 'Sighra Attariq Sumere Jati', nrp: '5027221068', image: 'https://drive.google.com/uc?id=1iLkHY1n2U4YkVSVyaIhE2aDeGvhaC1dH' },
         { name: 'Azzahra Sekar Rahmadina', nrp: '5027221035', image: 'https://placekitten.com/202/202' },
       ],

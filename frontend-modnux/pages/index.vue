@@ -60,27 +60,6 @@
             <div class="card mb-8">
               <card />
             </div>
-
-            <div class="card mb-8">
-              <card />
-            </div>
-
-            <div class="card mb-8">
-              <card />
-            </div>
-
-            <!-- Second Column (3 Cards Down) -->
-            <div class="card">
-              <card />
-            </div>
-
-            <div class="card">
-              <card />
-            </div>
-
-            <div class="card">
-              <card />
-            </div>
           </div>
         </div>
       </div>

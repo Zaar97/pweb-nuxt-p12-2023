@@ -31,7 +31,7 @@
         }
 
         .button {
-            @apply inline-block bg-teal-600 text-white px-5 py-2.5 rounded-md no-underline;
+            @apply inline-block bg-blue-500 text-white px-5 py-2.5 rounded-md no-underline;
             transition: transform 0.3s;
             margin-top: 40px;
         }

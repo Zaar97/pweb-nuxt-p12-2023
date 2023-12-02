@@ -24,7 +24,7 @@ export default {
       teamMembers: [
         { name: 'Muhammad Rifqi Oktaviansyah', nrp: '5027221067', image: 'https://drive.google.com/uc?id=1w5y-fWM0ZE21CiFLIHEc2SnAyMNGY3xi' },
         { name: 'Sighra Attariq Sumere Jati', nrp: '5027221068', image: 'https://drive.google.com/uc?id=1iLkHY1n2U4YkVSVyaIhE2aDeGvhaC1dH' },
-        { name: 'Zahra', nrp: 'Lead Developer', image: 'https://placekitten.com/202/202' },
+        { name: 'Azzahra Sekar Rahmadina', nrp: '5027221035', image: 'https://placekitten.com/202/202' },
       ],
     };
   },

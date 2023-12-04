@@ -50,15 +50,15 @@
         </div>
       </div>
     </div>
-
+    <!-- Featured Blogs Section -->
     <div class="cards-section bg-blue-500 transition ease-in-out min-h-screen flex items-center justify-center">
       <div class="rounded-lg p-6">
         <div class="container-xl">
           <h1 class="text-4xl text-white md:text-6xl font-extrabold">Featured Blogs</h1>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-20">
-            <!-- First Column (3 Cards Up) -->
-            <div class="card mb-8">
-              <card />
+            <!-- Loop through the first 6 blogs -->
+            <div v-for="(blog, index) in featuredBlogs.slice(0, 6)" :key="index" class="card mb-8">
+              <card :blog="blog" />
             </div>
           </div>
         </div>
@@ -67,8 +67,21 @@
   </div>
 </template>
 
-<script>
-export default {
-  components: {},
-}
+<script setup>
+import axios from 'axios';
+import { ref, onMounted } from 'vue';
+
+const featuredBlogs = ref([]);
+
+onMounted(async () => {
+  try {
+    const response = await axios.get('http://localhost:8080/api/Blogs');
+    featuredBlogs.value = response.data.docs;
+    console.log(featuredBlogs.value)
+  } catch (error) {
+    console.error('Error fetching blogs:', error);
+  }
+});
+
+
 </script>

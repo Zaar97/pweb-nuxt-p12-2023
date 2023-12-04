@@ -1,0 +1,12 @@
+{
+  "name": "pweb-nuxt-p12-2023",
+  "version": "1.0.0",
+  "description": "**Anggota Kelompok:**\r 1. Azzahra Sekar Rahmadina - 5027221035\r 2. Muhammad Rifqi Oktaviansyah - 5027221067\r 3. Sighra Attariq Sumere Jati - 5027221068",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

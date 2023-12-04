@@ -51,7 +51,7 @@
       </div>
     </div>
     <!-- Featured Blogs Section -->
-    <div class="cards-section bg-blue-500 transition ease-in-out min-h-screen flex items-center justify-center">
+    <div class="cards-section bg-gradient-to-b from-blue-500 to-indigo-700 transition ease-in-out min-h-screen flex items-center justify-center">
       <div class="rounded-lg p-6">
         <div class="container-xl">
           <h1 class="text-4xl text-white md:text-6xl font-extrabold">Featured Blogs</h1>

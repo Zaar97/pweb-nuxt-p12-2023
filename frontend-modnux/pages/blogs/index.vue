@@ -1,5 +1,5 @@
 <template>
-    <div class="cards-section bg-gradient-to-b from-blue-500 to-indigo-700 transition ease-in-out min-h-screen flex items-center justify-center mt-16">
+    <div class="cards-section bg-gradient-to-r from-blue-500 to-indigo-700 transition ease-in-out min-h-screen flex items-center justify-center mt-16">
       <div class="rounded-lg p-6">
         <div class="container-xl">
           <h1 class="text-4xl text-white md:text-6xl font-extrabold">Blog Lists</h1>
